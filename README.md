@@ -24,6 +24,10 @@ Agregamos las dependencias necesarias en el POM y debe quedar el archivo de la s
 ![spring8](https://user-images.githubusercontent.com/41167366/46356732-2c53bc00-c618-11e8-94e5-84e6c736a396.png)
 
 
-Creamos la siguiente carpeta
+Creamos la siguiente carpeta y añadimos el siguiente archivo que contendra la información para conectarnos a la base de datos.
+
+![spring14](https://user-images.githubusercontent.com/41167366/46358287-8f931d80-c61b-11e8-9238-15a4daa7a5e4.png)
+
+
 
 
