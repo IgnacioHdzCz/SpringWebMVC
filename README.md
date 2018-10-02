@@ -24,4 +24,6 @@ Agregamos las dependencias necesarias en el POM y debe quedar el archivo de la s
 ![spring8](https://user-images.githubusercontent.com/41167366/46356732-2c53bc00-c618-11e8-94e5-84e6c736a396.png)
 
 
+Creamos la siguiente carpeta
+
 
