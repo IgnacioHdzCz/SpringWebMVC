@@ -19,4 +19,7 @@ Una vez creado convertimos ese proyecto a Spring.
 Agregamos las dependencias necesarias en el POM y debe quedar el archivo de la siguiente manera.
 
 ![spring5](https://user-images.githubusercontent.com/41167366/46353287-a122f800-c610-11e8-9b4b-f61c4e5cc860.png)
+![spring6](https://user-images.githubusercontent.com/41167366/46356613-f282b580-c617-11e8-9db3-1e04707be498.png)
+![spring7](https://user-images.githubusercontent.com/41167366/46356614-f282b580-c617-11e8-8ec0-4b76113e69ad.png)
+
 
