@@ -9,4 +9,6 @@ Para este proyecto se utilizo el IDE Spring Tool Suite, asi que primero creamos 
 
 Escojemos un archetype que se encuentra en el repositorio de Maven.
 
+![spring3](https://user-images.githubusercontent.com/41167366/46352730-53f25680-c60f-11e8-862c-1060cb88fd56.png)
+
 
