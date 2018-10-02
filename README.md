@@ -3,7 +3,7 @@
                                Aplicacion CRUD + MAVEN + SPRING WEB MVC 
                                
                                
-
+Para este proyecto se utilizo el IDE Spring Tool Suite
 ![spring2](https://user-images.githubusercontent.com/41167366/46326840-ab62d900-c5b3-11e8-9557-c609cea20691.png)
 ![spring3](https://user-images.githubusercontent.com/41167366/46326841-ab62d900-c5b3-11e8-9652-b51a4f1d1e63.png)
 ![spring4](https://user-images.githubusercontent.com/41167366/46326842-ab62d900-c5b3-11e8-8c3e-19f208cf1fed.png)
