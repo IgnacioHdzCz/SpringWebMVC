@@ -13,3 +13,6 @@ Escojemos un archetype que se encuentra en el repositorio de Maven.
 
 
 Una vez creado convertimos ese proyecto a Spring.
+
+![spring4](https://user-images.githubusercontent.com/41167366/46353007-fdd1e300-c60f-11e8-9e53-852a7bec0c85.png)
+
