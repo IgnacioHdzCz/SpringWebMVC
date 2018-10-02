@@ -28,6 +28,10 @@ Creamos la siguiente carpeta y añadimos el siguiente archivo que contendra la i
 
 ![spring14](https://user-images.githubusercontent.com/41167366/46358287-8f931d80-c61b-11e8-9238-15a4daa7a5e4.png)
 
+Agregamos los siguientes datos en el archivo
+
+![spring15](https://user-images.githubusercontent.com/41167366/46358562-17792780-c61c-11e8-8420-2776cfb10a5b.png)
+
 
 
 
