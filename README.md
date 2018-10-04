@@ -34,6 +34,78 @@ Creamos la siguiente carpeta con la siguiente dirección -> src/main/java
 
 Creamos dentro de esa dirección nuestro package y creamos nuestra primera clase de Java con el nombre Empleado
 ![spring18](https://user-images.githubusercontent.com/41167366/46449908-50f88280-c743-11e8-9a4c-cebc200a9c34.png)
+![spring19](https://user-images.githubusercontent.com/41167366/46449980-b3ea1980-c743-11e8-92bd-9eb85a57d9a4.png)
+![spring20](https://user-images.githubusercontent.com/41167366/46449978-b3ea1980-c743-11e8-9926-537cefeeb44a.png)
+![spring21](https://user-images.githubusercontent.com/41167366/46449979-b3ea1980-c743-11e8-9662-8f39a1cc6608.png)
+
+La clase Empleado debe contener los siguientes atributos y con la ayuda del IDE generamos los Getters y Setters
+package com.persistencia.modelo;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class Empleado implements Serializable {
+
+	private static final long serialVersionUID = 270660453805162818L;
+	private int id;
+	private String nombre;
+	private String apellidoP;
+	private String apellidoM;
+	private String tel;
+	private String direccion;
+	
+	
+  //Agregamos la anotacion @Id y @GeneratedValue(strategy=GenerationType.Auto)
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public String getApellidoP() {
+		return apellidoP;
+	}
+	public void setApellidoP(String apellidoP) {
+		this.apellidoP = apellidoP;
+	}
+	public String getApellidoM() {
+		return apellidoM;
+	}
+	public void setApellidoM(String apellidoM) {
+		this.apellidoM = apellidoM;
+	}
+	public String getTel() {
+		return tel;
+	}
+	public void setTel(String tel) {
+		this.tel = tel;
+	}
+	public String getDireccion() {
+		return direccion;
+	}
+	public void setDireccion(String direccion) {
+		this.direccion = direccion;
+	}
+	
+
+}
+
+
 
 
 
