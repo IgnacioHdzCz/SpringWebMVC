@@ -302,4 +302,7 @@ Creamos una carpeta con el nombre de vistas en la carpeta WEB-INF y añadimos el
 
 La estructura del proyecto debe quedar de la siguiente manera
 
+![45](https://user-images.githubusercontent.com/41167366/46451714-aa18e400-c74c-11e8-8bf2-8b273e14188f.png)
+
+# Continuara...
 
