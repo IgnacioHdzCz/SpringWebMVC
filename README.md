@@ -32,6 +32,8 @@ Creamos la siguiente carpeta con la siguiente dirección -> src/main/java
 ![spring16](https://user-images.githubusercontent.com/41167366/46449754-9b2d3400-c742-11e8-8882-9a5e11d72227.png)
 ![spring17](https://user-images.githubusercontent.com/41167366/46449852-10006e00-c743-11e8-8441-d18ecb1d83dd.png)
 
+Necesitamos crear un archivo xml que se llama spring-servlet, nos posicionamos en el proyecto click izquierdo New -> Other y seleccionamos Spring Bean Configuration File
+
 Creamos dentro de esa dirección nuestro package y creamos nuestra primera clase de Java con el nombre Empleado
 ![spring18](https://user-images.githubusercontent.com/41167366/46449908-50f88280-c743-11e8-9a4c-cebc200a9c34.png)
 ![spring19](https://user-images.githubusercontent.com/41167366/46449980-b3ea1980-c743-11e8-92bd-9eb85a57d9a4.png)
@@ -110,6 +112,101 @@ public class Empleado implements Serializable {
 
 Ahora creamos otro package com.persistencia.dao y generamos la Interface IEmpleadoDao y creamos la clase EmpleadoDao que implementa esa
 Interface.
+
+![spring25](https://user-images.githubusercontent.com/41167366/46450379-ca917000-c745-11e8-8d76-686d0c613c85.png)
+![spring26](https://user-images.githubusercontent.com/41167366/46450376-ca917000-c745-11e8-9f3b-b22825833130.png)
+![spring27](https://user-images.githubusercontent.com/41167366/46450377-ca917000-c745-11e8-846e-54efb9f831a1.png)
+
+La Interface queda con el siguiente código
+
+        package com.persistencia.dao;
+
+        import java.util.List;
+
+        import com.persistencia.modelo.Empleado;
+
+        public interface IEmpleadoDao {
+
+	// Agregamos los siguientes metodos
+	
+	public void agregar(Empleado empleado);
+	
+	public List<Empleado> buscaTodos();
+	public void borrar(Empleado empleado);
+	
+	public Empleado actualizar(Empleado empleado);
+	
+	public Empleado buscarPorId(int id);
+
+}
+
+Y la clase que implementa esa Interface.
+
+
+package com.persistencia.dao;
+
+import java.util.List;
+
+import org.hibernate.SessionFactory;
+	      
+import org.springframework.beans.factory.annotation.Autowired;
+	      
+import org.springframework.stereotype.Repository;
+
+import com.persistencia.modelo.Empleado;
+
+              @Repository
+               public class EmpleadoDao implements IEmpleadoDao {
+
+	@Autowired
+	SessionFactory sessionFactory;
+
+	public SessionFactory getSessionFactory() {
+		return sessionFactory;
+	}
+
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+
+	@Override
+	public void agregar(Empleado empleado) {
+
+		sessionFactory.getCurrentSession().save(empleado);
+
+	}
+	
+	//modificado
+
+	@SuppressWarnings("unchecked")
+	@Override
+	public List<Empleado> buscaTodos() {
+
+		return sessionFactory.getCurrentSession().createQuery("from Empleado").list();
+	}
+
+	@Override
+	public void borrar(Empleado empleado) {
+		sessionFactory.getCurrentSession().delete(empleado);
+
+	}
+
+	@Override
+	public Empleado actualizar(Empleado empleado) {
+		// TODO Auto-generated method stub
+		sessionFactory.getCurrentSession().update(empleado);
+		return empleado;
+	}
+
+	@Override
+	public Empleado buscarPorId(int id) {
+		// TODO Auto-generated method stub
+		return sessionFactory.getCurrentSession().get(Empleado.class, id);
+	}
+
+}
+
+
 
 
 
