@@ -296,4 +296,8 @@ Como sabemos el proyecto sigue el patron  Modelo-Vista-Controlador, asi que nece
 Para ello seguimos los siguientes pasos.
 Creamos una carpeta con el nombre de vistas en la carpeta WEB-INF y añadimos el archivo JSP home y EmpleadoForm
 
+![spring41](https://user-images.githubusercontent.com/41167366/46451212-e72fa700-c749-11e8-8098-bffc5f502f0b.png)
+![spring42](https://user-images.githubusercontent.com/41167366/46451213-e7c83d80-c749-11e8-9168-9df53894ca50.png)
+
+
 
