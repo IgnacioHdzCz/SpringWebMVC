@@ -212,7 +212,7 @@ import com.persistencia.modelo.Empleado;
 
 }
 
-
+Creamos la interface IServicioEmpleado y su respectiva clase que lo implemente en el package com.pruebas.servicio
 
 
 
