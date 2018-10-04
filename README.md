@@ -24,10 +24,12 @@ Selecionamos un archetype que se encuentra en el repositorio de Maven.
 
 
  Creamos la siguiente carpeta con el nombre recursos en el directorio  que se muestra en la imagen y añadimos el siguiente archivo con nombre aplicacion y extension properties que contendra la información para conectarnos a la base de datos.
-
+El archivo debe quedar con la siguiente información.
 ![spring14](https://user-images.githubusercontent.com/41167366/46358287-8f931d80-c61b-11e8-9238-15a4daa7a5e4.png)
 ![spring15](https://user-images.githubusercontent.com/41167366/46358562-17792780-c61c-11e8-8420-2776cfb10a5b.png)
 
-Agregamos los siguientes datos en al archivo
+Creamos la siguiente carpeta con la siguiente dirección -> src/main/java
+![spring16](https://user-images.githubusercontent.com/41167366/46449754-9b2d3400-c742-11e8-8882-9a5e11d72227.png)
+
 
 
