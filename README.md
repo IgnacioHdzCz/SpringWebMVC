@@ -32,5 +32,8 @@ Creamos la siguiente carpeta con la siguiente dirección -> src/main/java
 ![spring16](https://user-images.githubusercontent.com/41167366/46449754-9b2d3400-c742-11e8-8882-9a5e11d72227.png)
 ![spring17](https://user-images.githubusercontent.com/41167366/46449852-10006e00-c743-11e8-8441-d18ecb1d83dd.png)
 
+Creamos dentro de esa dirección nuestro package y creamos nuestra primera clase de Java con el nombre Empleado
+![spring18](https://user-images.githubusercontent.com/41167366/46449908-50f88280-c743-11e8-9a4c-cebc200a9c34.png)
+
 
 
