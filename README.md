@@ -28,11 +28,17 @@ El archivo debe quedar con la siguiente información.
 ![spring14](https://user-images.githubusercontent.com/41167366/46358287-8f931d80-c61b-11e8-9238-15a4daa7a5e4.png)
 ![spring15](https://user-images.githubusercontent.com/41167366/46358562-17792780-c61c-11e8-8420-2776cfb10a5b.png)
 
+
+Necesitamos crear un archivo xml que se llama spring-servlet, nos posicionamos en el proyecto click izquierdo New -> Other y seleccionamos Spring Bean Configuration File
+
+![spring31](https://user-images.githubusercontent.com/41167366/46450683-7091aa00-c747-11e8-8377-b902448c314f.png)
+![spring32](https://user-images.githubusercontent.com/41167366/46450684-7091aa00-c747-11e8-913f-e16f1b4d261a.png)
+![spring33](https://user-images.githubusercontent.com/41167366/46450685-7091aa00-c747-11e8-8bee-714599c9d06b.png)
+![spring34](https://user-images.githubusercontent.com/41167366/46450686-7091aa00-c747-11e8-82f3-367d331777a4.png)
+
 Creamos la siguiente carpeta con la siguiente dirección -> src/main/java
 ![spring16](https://user-images.githubusercontent.com/41167366/46449754-9b2d3400-c742-11e8-8882-9a5e11d72227.png)
 ![spring17](https://user-images.githubusercontent.com/41167366/46449852-10006e00-c743-11e8-8441-d18ecb1d83dd.png)
-
-Necesitamos crear un archivo xml que se llama spring-servlet, nos posicionamos en el proyecto click izquierdo New -> Other y seleccionamos Spring Bean Configuration File
 
 Creamos dentro de esa dirección nuestro package y creamos nuestra primera clase de Java con el nombre Empleado
 ![spring18](https://user-images.githubusercontent.com/41167366/46449908-50f88280-c743-11e8-9a4c-cebc200a9c34.png)
