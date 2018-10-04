@@ -38,14 +38,18 @@ Creamos dentro de esa dirección nuestro package y creamos nuestra primera clase
 ![spring20](https://user-images.githubusercontent.com/41167366/46449978-b3ea1980-c743-11e8-9926-537cefeeb44a.png)
 ![spring21](https://user-images.githubusercontent.com/41167366/46449979-b3ea1980-c743-11e8-9662-8f39a1cc6608.png)
 
-La clase Empleado debe contener los siguientes atributos y con la ayuda del IDE generamos los Getters y Setters
-package com.persistencia.modelo;
+La clase Empleado se encuentra en el package com.persistencia.modelo, debe contener los siguientes atributos y con la ayuda del IDE generamos los Getters y Setters
+
+package com.persistencia.modelo
 
 import java.io.Serializable;
 
 import javax.persistence.Entity;
+
 import javax.persistence.GeneratedValue;
+
 import javax.persistence.GenerationType;
+
 import javax.persistence.Id;
 
 @Entity
@@ -101,11 +105,11 @@ public class Empleado implements Serializable {
 	public void setDireccion(String direccion) {
 		this.direccion = direccion;
 	}
-	
 
 }
 
-
+Ahora creamos otro package com.persistencia.dao y generamos la Interface IEmpleadoDao y creamos la clase EmpleadoDao que implementa esa
+Interface.
 
 
 
