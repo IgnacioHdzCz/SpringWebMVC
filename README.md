@@ -292,6 +292,8 @@ public class EmpleadoControl {
 
 }
 
-
+Como sabemos el proyecto sigue el patron  Modelo-Vista-Controlador, asi que necesitamos crear las vistas que tendra nuestro usuario.
+Para ello seguimos los siguientes pasos.
+Creamos una carpeta con el nombre de vistas en la carpeta WEB-INF y añadimos el archivo JSP home y EmpleadoForm
 
 
