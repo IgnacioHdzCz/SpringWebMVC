@@ -298,6 +298,8 @@ Creamos una carpeta con el nombre de vistas en la carpeta WEB-INF y añadimos el
 
 ![spring41](https://user-images.githubusercontent.com/41167366/46451212-e72fa700-c749-11e8-8098-bffc5f502f0b.png)
 ![spring42](https://user-images.githubusercontent.com/41167366/46451213-e7c83d80-c749-11e8-9168-9df53894ca50.png)
+![spring44](https://user-images.githubusercontent.com/41167366/46451254-1fcf8080-c74a-11e8-9afb-33d5eaaeb543.png)
 
+La estructura del proyecto debe quedar de la siguiente manera
 
 
